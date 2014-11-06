@@ -1,13 +1,13 @@
 #Default TDD boilerplate
 
-###Default folder structure for doing TDD excercises with CoffeeScript, Mocha and Should.
+###Default folder structure for doing TDD excercises with vanilla Javascript, Mocha and Should.
 
 ##Instructions
 
 1. Clone the repository
 
 ```
-$ git clone https://github.com/elenatorro/Default-TDD-boilerplate.git
+$ git clone https://github.com/elenatorro/Default-TDD-boilerplate-JS.git
 
 $ cd Default-TDD-boilerplate
 ```
@@ -28,13 +28,13 @@ $ npm test
 ##Structure
 
 ```
-lib/DefaultObject.coffee
+lib/DefaultObject.js
 ```
 
 Create your objects following this object structure. Don't forget to export it at the end.
 
 ```
-test/test.coffee
+test/test.js
 ```
 Here is where you have to write your test. 'Describe' is used to group a sort of unit test that test the same field.
 
